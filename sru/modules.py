@@ -36,7 +36,7 @@ class SRUCell(nn.Module):
                  projection_size: int = 0,
                  highway_bias: float = 0.0,
                  layer_norm: bool = False,
-                 normalize_after: bool = True,
+                 normalize_after: bool = False,
                  transform_module: Optional[nn.Module] = None,
                  rescale: bool = False,
                  has_skip_term: bool = True,
